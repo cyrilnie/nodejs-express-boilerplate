@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"declaration": true,
+		"noImplicitAny": true,
+		"module": "commonjs",
+		"target": "es5",
+		"downlevelIteration": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"baseUrl": "./",
+		"lib": ["es6", "dom"],
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"types": ["reflect-metadata", "jest"]
+	},
+	"include": ["src/**/*"]
+}
