@@ -14,10 +14,6 @@
 		"esModuleInterop": true,
 		"baseUrl": "./",
 		"lib": ["es6", "dom"],
-		"paths": {
-			"@/*": ["src/*"]
-		},
 		"types": ["reflect-metadata", "jest"]
-	},
-	"include": ["src/**/*"]
+	}
 }
